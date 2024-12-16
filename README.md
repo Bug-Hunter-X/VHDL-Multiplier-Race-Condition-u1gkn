@@ -1,0 +1,1 @@
+This repository demonstrates a subtle race condition in a simple VHDL multiplier. The bug arises from concurrent assignments to an internal signal and the output port. The solution uses a sequential process to ensure correct timing and prevent the race condition. The provided testbench allows for verification of both the buggy and corrected versions.
